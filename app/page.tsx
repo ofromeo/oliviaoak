@@ -48,14 +48,11 @@ export default function Home() {
             <div>
             {isInApp ? (
             <div>
-                <div className="flex justify-center h-full w-full gap-3">
+              <div className="flex justify-center h-full w-full gap-3">
               <Link href={"https://www.instagram.com/oliviaoakleyyy"} 
               target="_blank" 
-              rel="noopener noreferrer" 
-              // onClick={(e) => {
-              //   e.preventDefault();
-              //   setIsCardOpen(true);
-              // }}
+              rel="noopener noreferrer"
+              className="bg-pink-300 rounded-2xl"
               >
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
@@ -67,7 +64,7 @@ export default function Home() {
                   />
                 </Button>
               </Link>
-              <Link href={"https://www.tiktok.com/@oliviaoakleyyy"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://www.tiktok.com/@oliviaoakleyyy"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
                   src={"/images/tiktok_icon.svg"} 
@@ -78,7 +75,7 @@ export default function Home() {
                   />
                 </Button>
               </Link>
-              <Link href={"https://x.com/OliviaOakleyyy"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://x.com/OliviaOakleyyy"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
                   src={"/images/twitter_icon.svg"} 
@@ -89,7 +86,7 @@ export default function Home() {
                   />
                 </Button>
               </Link>
-              <Link href={"https://www.reddit.com/user/oliviaoakleyy/"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://www.reddit.com/user/oliviaoakleyy/"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
                   src={"/images/reddit_icon.svg"} 
@@ -126,10 +123,11 @@ export default function Home() {
             </div>
             ) : (
               <div>
-              <div className="flex justify-center h-full w-full gap-3">
+              <div className="flex justify-center h-full w-full gap-3 ">
               <Link href={"https://www.instagram.com/oliviaoakleyyy"} 
               target="_blank" 
               rel="noopener noreferrer" 
+              className="bg-pink-300 rounded-2xl"
               >
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
@@ -141,7 +139,7 @@ export default function Home() {
                   />
                 </Button>
               </Link>
-              <Link href={"https://www.tiktok.com/@oliviaoakleyyy"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://www.tiktok.com/@oliviaoakleyyy"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
                   src={"/images/tiktok_icon.svg"} 
@@ -152,7 +150,7 @@ export default function Home() {
                   />
                 </Button>
               </Link>
-              <Link href={"https://x.com/OliviaOakleyyy"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://x.com/OliviaOakleyyy"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
                   src={"/images/twitter_icon.svg"} 
@@ -163,7 +161,7 @@ export default function Home() {
                   />
                 </Button>
               </Link>
-              <Link href={"https://www.reddit.com/user/oliviaoakleyy/"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://www.reddit.com/user/oliviaoakleyy/"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
                   src={"/images/reddit_icon.svg"} 
@@ -176,7 +174,7 @@ export default function Home() {
               </Link>
               </div>
               <div className="flex justify-center h-full w-full gap-3 py-10">
-              <Link href={"https://onlyfans.com/oliviaoakley"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://onlyfans.com/oliviaoakley"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300 h-50"}>
                   <Image 
                   src={"/images/onlyfans_icon.png"}
