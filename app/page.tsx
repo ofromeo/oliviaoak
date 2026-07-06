@@ -49,7 +49,7 @@ export default function Home() {
             {isInApp ? (
             <div>
                 <div className="flex justify-center h-full w-full gap-3">
-              <Link href={"https://www.tiktok.com/@oliviaoakleyyy"} 
+              <Link href={"https://www.instagram.com/oliviaoakleyyy"} 
               target="_blank" 
               rel="noopener noreferrer" 
               // onClick={(e) => {
