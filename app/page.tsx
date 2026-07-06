@@ -127,13 +127,9 @@ export default function Home() {
             ) : (
               <div>
               <div className="flex justify-center h-full w-full gap-3">
-              <Link href={"https://www.tiktok.com/@oliviaoakleyyy"} 
+              <Link href={"https://www.instagram.com/oliviaoakleyyy"} 
               target="_blank" 
               rel="noopener noreferrer" 
-              // onClick={(e) => {
-              //   e.preventDefault();
-              //   setIsCardOpen(true);
-              // }}
               >
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
