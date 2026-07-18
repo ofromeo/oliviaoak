@@ -64,7 +64,7 @@ export default function Home() {
                   />
                 </Button>
               </Link>
-              <Link href={"https://www.tiktok.com/@oliviaoakleyyy"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
+              <Link href={"https://www.tiktok.com/@olivia.oakley6"} target="_blank" rel="noopener noreferrer" className="bg-pink-300 rounded-2xl">
                 <Button variant={"outline"} className={"flex items-center gap-2 bg-pink-300"}>
                   <Image
                   src={"/images/tiktok_icon.svg"} 
